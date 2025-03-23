@@ -99,15 +99,15 @@ namespace ClassLibrary
             {
                 Console.WriteLine($"Поиск элемента {element.Name}");
 
-                TimeDetection(() => list1.Contains(element.Element), $"Поиск в list1");
+                TimeDetection(() => list1.Contains(element.Element), $"Поиск в LinkedList<Truck>");
 
-                TimeDetection(() => list2.Contains(element.Element.ToString()), $"Поиск в list2");
+                TimeDetection(() => list2.Contains(element.Element.ToString()), $"Поиск в LinkedList<string>");
 
-                TimeDetection(() => list3.ContainsKey(element.Element.GetBase), $"Поиск в list3 по ключу");
-                TimeDetection(() => list3.ContainsValue(element.Element), $"Поиск в list3 по значению");
+                TimeDetection(() => list3.ContainsKey(element.Element.GetBase), $"Поиск в Dictionary<Transport, Truck> по ключу");
+                TimeDetection(() => list3.ContainsValue(element.Element), $"Поиск в Dictionary<Transport, Truck> по значению");
 
-                TimeDetection(() => list4.ContainsKey(element.Element.GetBase.ToString()), $"Поиск в list4 по ключу");
-                TimeDetection(() => list4.ContainsValue(element.Element), $"Поиск в list4 по значению");
+                TimeDetection(() => list4.ContainsKey(element.Element.GetBase.ToString()), $"Поиск в Dictionary<string, Truck> по ключу");
+                TimeDetection(() => list4.ContainsValue(element.Element), $"Поиск в Dictionary<string, Truck> по значению");
 
                 Console.WriteLine();
             }
