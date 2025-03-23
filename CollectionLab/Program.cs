@@ -240,7 +240,7 @@ namespace CollectionLab
             #endregion Конец 2 части
 
             #region 3 часть
-            TestCollection testCollections = new TestCollection(10);
+            TestCollection testCollections = new TestCollection(1000);
             testCollections.PrintFirstMiddleLast();
             testCollections.Print();
 

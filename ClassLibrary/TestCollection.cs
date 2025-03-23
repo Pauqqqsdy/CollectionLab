@@ -65,7 +65,7 @@ namespace ClassLibrary
 
         private void TimeDetection(Func<bool> action, string message)
         {
-            int iterations = 10;
+            int iterations = 1000;
             double totalTime = 0;
             bool isFound = false;
 
