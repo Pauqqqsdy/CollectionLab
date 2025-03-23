@@ -12,10 +12,10 @@ namespace ClassLibrary
 {
     public class TestCollection
     {
-        public LinkedList<Truck> list1 = new LinkedList<Truck>();
-        public LinkedList<string> list2 = new LinkedList<string>();
-        public Dictionary<Transport, Truck> list3 = new Dictionary<Transport, Truck>();
-        public Dictionary<string, Truck> list4 = new Dictionary<string, Truck>();
+        private LinkedList<Truck> list1 = new LinkedList<Truck>();
+        private LinkedList<string> list2 = new LinkedList<string>();
+        private Dictionary<Transport, Truck> list3 = new Dictionary<Transport, Truck>();
+        private Dictionary<string, Truck> list4 = new Dictionary<string, Truck>();
 
         private Truck first, middle, last, noexist;
 

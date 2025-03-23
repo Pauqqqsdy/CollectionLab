@@ -15,7 +15,7 @@ namespace CollectionLab
             //ArrayList list = new ArrayList();
 
             //list.AddRange(new object[] { new Truck(), new PassengerCar(), new OffroadCar(), new Transport() });
-            //foreach(object obj in list)
+            //foreach (object obj in list)
             //{
             //    Console.WriteLine(obj);
             //}
@@ -75,7 +75,7 @@ namespace CollectionLab
             //    Console.WriteLine(obj);
             //}
 
-            //Console.WriteLine();    
+            //Console.WriteLine();
 
             //Console.WriteLine("Клонированный список:");
             //foreach (object obj in clonedList)
